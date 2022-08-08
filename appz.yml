@@ -1,7 +1,7 @@
 app:
     name: Postgres Master
     code: POSTGRES
-    notify: dakrthik@cloudcontrol.com
+    notify: dkarthik@cloudcontrol.com
     
 build:
     version: 13.X
@@ -42,4 +42,4 @@ properties:
       vault: POSTGRESQL_DOTNET_PASSWORD
     PGPASSWORD: 
       vault: PGPASSWORD
-    revision : 79
+    revision : 80
